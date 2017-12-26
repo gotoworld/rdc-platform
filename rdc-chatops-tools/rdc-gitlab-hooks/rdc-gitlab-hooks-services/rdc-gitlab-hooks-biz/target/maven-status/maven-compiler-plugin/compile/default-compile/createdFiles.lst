@@ -1,0 +1,14 @@
+com\hsd\gitlab\systemhook\util\HttpClientUtils.class
+com\hsd\gitlab\systemhook\service\webhooks\TagPushIEventHandleService$TaskOfOutgoingPost.class
+com\hsd\gitlab\systemhook\service\webhooks\OthersEventHandleService.class
+com\hsd\gitlab\systemhook\service\webhooks\TagPushIEventHandleService.class
+com\hsd\gitlab\systemhook\service\webhooks\SysCommitService.class
+com\hsd\gitlab\systemhook\service\trigger\GitlabSystemHooksService.class
+com\hsd\gitlab\systemhook\service\webhooks\EventHandleServiceFactory.class
+com\hsd\gitlab\systemhook\service\webhooks\SysHookPushService.class
+com\hsd\gitlab\systemhook\service\webhooks\PushEventHandleService$TaskOfOutgoingPost.class
+com\hsd\gitlab\systemhook\service\webhooks\SysAuthorService.class
+com\hsd\gitlab\systemhook\service\webhooks\SysProjectService.class
+com\hsd\gitlab\systemhook\service\IEventHandleService.class
+com\hsd\gitlab\systemhook\service\webhooks\PushEventHandleService.class
+com\hsd\gitlab\systemhook\service\trigger\SysOutgoingGroupService.class

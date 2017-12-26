@@ -1,0 +1,3 @@
+2017-11-29 17:00:19.175 [WARN ] com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2017-11-29 17:00:28.271 [WARN ] com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2017-11-29 17:00:33.395 [WARN ] com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.

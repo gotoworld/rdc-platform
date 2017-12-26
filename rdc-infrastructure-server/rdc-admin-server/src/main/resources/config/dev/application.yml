@@ -1,0 +1,57 @@
+## [APP]
+spring:
+  application:
+    name: hsd-admin-server
+  profiles:
+    active: dev
+
+server:
+  port: 5003
+
+
+## [EUREKA]
+eureka:
+  instance:
+#    instance-id: ${spring.application.name}:${server.port}
+    hostname: hsd-admin-server
+    prefer-ip-address: true                       # 设置微服务调用地址为IP优先（缺省为false）
+    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+    lease-renewal-interval-in-seconds: 5          # 心跳时间，即服务续约间隔时间（缺省为30s）
+    lease-expiration-duration-in-seconds: 15      # 发呆时间，即服务续约到期时间（缺省为90s）
+    statusPageUrlPath: /info
+    healthCheckUrlPath: /health
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://${security.user.name}:${security.user.password}@localhost:5001/eureka/
+
+## [SECURITY]
+security:
+     basic:
+       enabled: false
+     user:
+       name: admin
+       password: admin
+
+## [MANAGEMENT]
+management:
+  security:
+    enabled: false
+
+## [LOG]
+logging:
+  level.root: debug
+  path: ./logs/hsd-admin-server   # not working this moment, since logback-spring will be first used by
+
+## [INFO]
+info:
+  name: "@project.name@"
+  description: "@project.description@"
+  version: "@project.version@"
+  spring-boot-version: "@project.parent.version@"
+
+## [OTHER]
+hsd:
+  common:
+    appPrefix: dev_   #指定app前缀（开发中可使用IP），系统在队列名、Cache名等前会自动加上前缀，以便不同环境冲突

@@ -1,0 +1,12 @@
+2017-11-27 15:54:05.719 [WARN ] com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2017-11-27 15:54:10.960 [WARN ] com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2017-11-27 15:54:16.962 [WARN ] com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2017-11-27 15:54:16.963 [WARN ] com.netflix.discovery.DiscoveryClient - Using default backup registry implementation which does not do anything.
+2017-11-27 15:54:19.117 [WARN ] com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2017-11-27 15:54:19.198 [WARN ] com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2017-11-27 17:11:49.822 [WARN ] com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2017-11-27 17:11:55.174 [WARN ] com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2017-11-27 17:12:00.961 [WARN ] com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2017-11-27 17:13:11.149 [WARN ] com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2017-11-27 17:13:16.141 [WARN ] com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2017-11-27 17:13:19.776 [WARN ] com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.

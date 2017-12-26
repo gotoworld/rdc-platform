@@ -1,0 +1,4 @@
+com\hsd\gitlab\systemhook\dao\SysOutgoingGroupMapperTest.class
+com\hsd\gitlab\BaseJunit.class
+com\hsd\gitlab\outgoing\dingtalk\ChatbotSend.class
+com\hsd\gitlab\outgoing\slack\ChatbotSend.class

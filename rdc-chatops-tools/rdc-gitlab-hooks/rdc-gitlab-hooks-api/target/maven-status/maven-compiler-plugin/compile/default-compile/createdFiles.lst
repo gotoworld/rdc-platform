@@ -1,0 +1,10 @@
+com\hsd\gitlab\hook\dto\PageDTO.class
+com\hsd\gitlab\hook\config\FeignConfiguration.class
+com\hsd\gitlab\hook\dto\IdEntityDTO.class
+com\hsd\gitlab\hook\config\FeignConfiguration$1.class
+com\hsd\gitlab\hook\api\IGitlabSystemHooksService.class
+com\hsd\gitlab\hook\dto\AuditEntityDTO.class
+com\hsd\gitlab\hook\util\BeanUtils.class
+com\hsd\gitlab\hook\api\ISysOutgoingGroupService.class
+com\hsd\gitlab\hook\dto\SysOutgoingGroupDTO.class
+com\hsd\gitlab\hook\dto\IMType.class

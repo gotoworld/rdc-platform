@@ -10,5 +10,11 @@
 	<name>rdc-platform</name>
 	<url>http://maven.apache.org</url>
 
+	<modules>
+		<module>rdc-base-server</module>
+		<module>rdc-chatops-tools</module>
+		<module>rdc-framework</module>
+		<module>rdc-infrastructure-server</module>
+    </modules>
 </project>
 

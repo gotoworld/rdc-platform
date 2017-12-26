@@ -1,0 +1,12 @@
+E:\hsd-chatops\hsd-chatops-tools\hsd-gitlab-hooks\hsd-gitlab-hooks-services\hsd-gitlab-hooks-biz\src\main\java\com\hsd\gitlab\systemhook\service\webhooks\OthersEventHandleService.java
+E:\hsd-chatops\hsd-chatops-tools\hsd-gitlab-hooks\hsd-gitlab-hooks-services\hsd-gitlab-hooks-biz\src\main\java\com\hsd\gitlab\systemhook\service\webhooks\SysProjectService.java
+E:\hsd-chatops\hsd-chatops-tools\hsd-gitlab-hooks\hsd-gitlab-hooks-services\hsd-gitlab-hooks-biz\src\main\java\com\hsd\gitlab\systemhook\service\IEventHandleService.java
+E:\hsd-chatops\hsd-chatops-tools\hsd-gitlab-hooks\hsd-gitlab-hooks-services\hsd-gitlab-hooks-biz\src\main\java\com\hsd\gitlab\systemhook\service\trigger\GitlabSystemHooksService.java
+E:\hsd-chatops\hsd-chatops-tools\hsd-gitlab-hooks\hsd-gitlab-hooks-services\hsd-gitlab-hooks-biz\src\main\java\com\hsd\gitlab\systemhook\service\webhooks\SysAuthorService.java
+E:\hsd-chatops\hsd-chatops-tools\hsd-gitlab-hooks\hsd-gitlab-hooks-services\hsd-gitlab-hooks-biz\src\main\java\com\hsd\gitlab\systemhook\service\trigger\SysOutgoingGroupService.java
+E:\hsd-chatops\hsd-chatops-tools\hsd-gitlab-hooks\hsd-gitlab-hooks-services\hsd-gitlab-hooks-biz\src\main\java\com\hsd\gitlab\systemhook\service\webhooks\PushEventHandleService.java
+E:\hsd-chatops\hsd-chatops-tools\hsd-gitlab-hooks\hsd-gitlab-hooks-services\hsd-gitlab-hooks-biz\src\main\java\com\hsd\gitlab\systemhook\service\webhooks\SysHookPushService.java
+E:\hsd-chatops\hsd-chatops-tools\hsd-gitlab-hooks\hsd-gitlab-hooks-services\hsd-gitlab-hooks-biz\src\main\java\com\hsd\gitlab\systemhook\service\webhooks\TagPushIEventHandleService.java
+E:\hsd-chatops\hsd-chatops-tools\hsd-gitlab-hooks\hsd-gitlab-hooks-services\hsd-gitlab-hooks-biz\src\main\java\com\hsd\gitlab\systemhook\service\webhooks\EventHandleServiceFactory.java
+E:\hsd-chatops\hsd-chatops-tools\hsd-gitlab-hooks\hsd-gitlab-hooks-services\hsd-gitlab-hooks-biz\src\main\java\com\hsd\gitlab\systemhook\service\webhooks\SysCommitService.java
+E:\hsd-chatops\hsd-chatops-tools\hsd-gitlab-hooks\hsd-gitlab-hooks-services\hsd-gitlab-hooks-biz\src\main\java\com\hsd\gitlab\systemhook\util\HttpClientUtils.java

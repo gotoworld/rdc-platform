@@ -1,0 +1,8 @@
+com\hsd\framework\dto\CommonConstant.class
+com\hsd\framework\exception\BaseException.class
+com\hsd\framework\dto\SysErrorCode.class
+com\hsd\framework\exception\ServiceFeignException.class
+com\hsd\framework\exception\ErrorCode.class
+com\hsd\framework\exception\ServiceException.class
+com\hsd\framework\dto\Response.class
+com\hsd\framework\annotation\FeignService.class

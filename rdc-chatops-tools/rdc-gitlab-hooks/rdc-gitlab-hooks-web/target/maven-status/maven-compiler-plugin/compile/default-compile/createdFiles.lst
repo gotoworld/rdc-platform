@@ -1,0 +1,4 @@
+com\hsd\gitlab\systemhook\GitlabHookWeb.class
+com\hsd\gitlab\systemhook\web\incoming\SysOutgoingGroupController.class
+com\hsd\gitlab\systemhook\config\SwaggerConfig.class
+com\hsd\gitlab\systemhook\web\incoming\GitlabSystemHooksController.class

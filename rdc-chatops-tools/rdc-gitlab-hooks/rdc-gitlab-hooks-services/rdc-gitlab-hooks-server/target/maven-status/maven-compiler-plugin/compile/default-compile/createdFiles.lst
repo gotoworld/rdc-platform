@@ -1,0 +1,10 @@
+com\hsd\gitlab\systemhook\vo\ResVo.class
+com\hsd\gitlab\config\SwaggerConfig.class
+com\hsd\gitlab\type\ProjectVisibilities.class
+com\hsd\gitlab\config\DruidProperties.class
+com\hsd\framework\annotation\FeignService.class
+com\hsd\gitlab\config\MybatisPlusConfig.class
+com\hsd\gitlab\systemhook\vo\BaseVO.class
+com\hsd\gitlab\constant\Constants.class
+com\hsd\gitlab\GitlabHooksServer.class
+com\hsd\gitlab\config\EhCacheConfig.class

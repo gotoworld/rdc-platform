@@ -1,0 +1,328 @@
+2017-11-29 17:00:04.070 [DEBUG] org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2017-11-29 17:00:04.108 [DEBUG] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2017-11-29 17:00:04.340 [DEBUG] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2017-11-29 17:00:04.360 [DEBUG] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2017-11-29 17:00:04.367 [DEBUG] org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2017-11-29 17:00:04.368 [DEBUG] org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2017-11-29 17:00:04.370 [DEBUG] org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy52
+2017-11-29 17:00:04.373 [DEBUG] org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2017-11-29 17:00:04.376 [DEBUG] org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2017-11-29 17:00:04.377 [DEBUG] org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2017-11-29 17:00:04.378 [DEBUG] org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2017-11-29 17:00:04.379 [DEBUG] org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2017-11-29 17:00:06.924 [DEBUG] org.mybatis.spring.mapper.ClassPathMapperScanner - Ignored because not a concrete top-level class: file [E:\hsd-chatops\hsd-chatops-tools\hsd-gitlab-hooks\hsd-gitlab-hooks-services\hsd-gitlab-hooks-server\target\test-classes\com\hsd\gitlab\systemhook\dao\SysOutgoingGroupMapperTest.class]
+2017-11-29 17:00:06.925 [DEBUG] org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: URL [jar:file:/E:/hsd-chatops/hsd-chatops-tools/hsd-gitlab-hooks/hsd-gitlab-hooks-services/hsd-gitlab-hooks-dao/target/hsd-gitlab-hooks-dao-1.0.0-SNAPSHOT.jar!/com/hsd/gitlab/systemhook/dao/SysAuthorMapper.class]
+2017-11-29 17:00:06.926 [DEBUG] org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: URL [jar:file:/E:/hsd-chatops/hsd-chatops-tools/hsd-gitlab-hooks/hsd-gitlab-hooks-services/hsd-gitlab-hooks-dao/target/hsd-gitlab-hooks-dao-1.0.0-SNAPSHOT.jar!/com/hsd/gitlab/systemhook/dao/SysCommitMapper.class]
+2017-11-29 17:00:06.926 [DEBUG] org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: URL [jar:file:/E:/hsd-chatops/hsd-chatops-tools/hsd-gitlab-hooks/hsd-gitlab-hooks-services/hsd-gitlab-hooks-dao/target/hsd-gitlab-hooks-dao-1.0.0-SNAPSHOT.jar!/com/hsd/gitlab/systemhook/dao/SysHookPushMapper.class]
+2017-11-29 17:00:06.929 [DEBUG] org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: URL [jar:file:/E:/hsd-chatops/hsd-chatops-tools/hsd-gitlab-hooks/hsd-gitlab-hooks-services/hsd-gitlab-hooks-dao/target/hsd-gitlab-hooks-dao-1.0.0-SNAPSHOT.jar!/com/hsd/gitlab/systemhook/dao/SysOutgoingGroupMapper.class]
+2017-11-29 17:00:06.930 [DEBUG] org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: URL [jar:file:/E:/hsd-chatops/hsd-chatops-tools/hsd-gitlab-hooks/hsd-gitlab-hooks-services/hsd-gitlab-hooks-dao/target/hsd-gitlab-hooks-dao-1.0.0-SNAPSHOT.jar!/com/hsd/gitlab/systemhook/dao/SysProjectMapper.class]
+2017-11-29 17:00:06.931 [DEBUG] org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: URL [jar:file:/E:/hsd-chatops/hsd-chatops-tools/hsd-gitlab-hooks/hsd-gitlab-hooks-services/hsd-gitlab-hooks-dao/target/hsd-gitlab-hooks-dao-1.0.0-SNAPSHOT.jar!/com/hsd/gitlab/systemhook/dao/SysRPushCommitMapper.class]
+2017-11-29 17:00:06.931 [DEBUG] org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'sysAuthorMapper' and 'com.hsd.gitlab.systemhook.dao.SysAuthorMapper' mapperInterface
+2017-11-29 17:00:06.933 [DEBUG] org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'sysAuthorMapper'.
+2017-11-29 17:00:06.933 [DEBUG] org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'sysCommitMapper' and 'com.hsd.gitlab.systemhook.dao.SysCommitMapper' mapperInterface
+2017-11-29 17:00:06.934 [DEBUG] org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'sysCommitMapper'.
+2017-11-29 17:00:06.934 [DEBUG] org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'sysHookPushMapper' and 'com.hsd.gitlab.systemhook.dao.SysHookPushMapper' mapperInterface
+2017-11-29 17:00:06.934 [DEBUG] org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'sysHookPushMapper'.
+2017-11-29 17:00:06.935 [DEBUG] org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'sysOutgoingGroupMapper' and 'com.hsd.gitlab.systemhook.dao.SysOutgoingGroupMapper' mapperInterface
+2017-11-29 17:00:06.936 [DEBUG] org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'sysOutgoingGroupMapper'.
+2017-11-29 17:00:06.937 [DEBUG] org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'sysProjectMapper' and 'com.hsd.gitlab.systemhook.dao.SysProjectMapper' mapperInterface
+2017-11-29 17:00:06.937 [DEBUG] org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'sysProjectMapper'.
+2017-11-29 17:00:06.937 [DEBUG] org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'sysRPushCommitMapper' and 'com.hsd.gitlab.systemhook.dao.SysRPushCommitMapper' mapperInterface
+2017-11-29 17:00:06.938 [DEBUG] org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'sysRPushCommitMapper'.
+2017-11-29 17:00:07.921 [DEBUG] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-11-29 17:00:09.860 [DEBUG] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2017-11-29 17:00:09.863 [DEBUG] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2017-11-29 17:00:09.865 [DEBUG] org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2017-11-29 17:00:09.866 [DEBUG] org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2017-11-29 17:00:09.867 [DEBUG] org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy52
+2017-11-29 17:00:09.869 [DEBUG] org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2017-11-29 17:00:09.869 [DEBUG] org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2017-11-29 17:00:09.870 [DEBUG] org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2017-11-29 17:00:09.871 [DEBUG] org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2017-11-29 17:00:09.872 [DEBUG] org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2017-11-29 17:00:10.929 [DEBUG] com.baomidou.mybatisplus.toolkit.GlobalConfigUtils - DeBug: MyBatis Plus Global configuration Initializing !
+2017-11-29 17:00:10.947 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.baomidou.mybatisplus.mapper.SqlRunner.SelectList
+2017-11-29 17:00:10.948 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.baomidou.mybatisplus.mapper.SqlRunner.SelectObjs
+2017-11-29 17:00:10.949 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.baomidou.mybatisplus.mapper.SqlRunner.Insert
+2017-11-29 17:00:10.949 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.baomidou.mybatisplus.mapper.SqlRunner.Update
+2017-11-29 17:00:10.949 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.baomidou.mybatisplus.mapper.SqlRunner.Delete
+2017-11-29 17:00:10.950 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.baomidou.mybatisplus.mapper.SqlRunner.Count
+2017-11-29 17:00:10.951 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - Mybatis-plus init success.
+2017-11-29 17:00:13.277 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysAuthorMapper.deleteById
+2017-11-29 17:00:13.302 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysAuthorMapper.deleteBatchIds
+2017-11-29 17:00:13.309 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysAuthorMapper.updateById
+2017-11-29 17:00:13.336 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysAuthorMapper.updateAllColumnById
+2017-11-29 17:00:13.337 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysAuthorMapper.selectById
+2017-11-29 17:00:13.342 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysAuthorMapper.selectBatchIds
+2017-11-29 17:00:13.349 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysAuthorMapper.insert
+2017-11-29 17:00:13.355 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysAuthorMapper.insertAllColumn
+2017-11-29 17:00:13.360 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysAuthorMapper.delete
+2017-11-29 17:00:13.363 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysAuthorMapper.deleteByMap
+2017-11-29 17:00:13.368 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysAuthorMapper.update
+2017-11-29 17:00:13.371 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysAuthorMapper.selectByMap
+2017-11-29 17:00:13.380 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysAuthorMapper.selectOne
+2017-11-29 17:00:13.384 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysAuthorMapper.selectCount
+2017-11-29 17:00:13.389 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysAuthorMapper.selectList
+2017-11-29 17:00:13.392 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysAuthorMapper.selectPage
+2017-11-29 17:00:13.397 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysAuthorMapper.selectMaps
+2017-11-29 17:00:13.401 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysAuthorMapper.selectMapsPage
+2017-11-29 17:00:13.404 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysAuthorMapper.selectObjs
+2017-11-29 17:00:13.609 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysProjectMapper.deleteById
+2017-11-29 17:00:13.626 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysProjectMapper.deleteBatchIds
+2017-11-29 17:00:13.647 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysProjectMapper.updateById
+2017-11-29 17:00:13.651 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysProjectMapper.updateAllColumnById
+2017-11-29 17:00:13.651 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysProjectMapper.selectById
+2017-11-29 17:00:13.654 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysProjectMapper.selectBatchIds
+2017-11-29 17:00:13.658 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysProjectMapper.insert
+2017-11-29 17:00:13.662 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysProjectMapper.insertAllColumn
+2017-11-29 17:00:13.666 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysProjectMapper.delete
+2017-11-29 17:00:13.669 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysProjectMapper.deleteByMap
+2017-11-29 17:00:13.673 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysProjectMapper.update
+2017-11-29 17:00:13.676 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysProjectMapper.selectByMap
+2017-11-29 17:00:13.683 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysProjectMapper.selectOne
+2017-11-29 17:00:13.687 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysProjectMapper.selectCount
+2017-11-29 17:00:13.691 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysProjectMapper.selectList
+2017-11-29 17:00:13.694 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysProjectMapper.selectPage
+2017-11-29 17:00:13.698 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysProjectMapper.selectMaps
+2017-11-29 17:00:13.702 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysProjectMapper.selectMapsPage
+2017-11-29 17:00:13.705 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysProjectMapper.selectObjs
+2017-11-29 17:00:13.755 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysHookPushMapper.deleteById
+2017-11-29 17:00:13.758 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysHookPushMapper.deleteBatchIds
+2017-11-29 17:00:13.761 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysHookPushMapper.updateById
+2017-11-29 17:00:13.763 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysHookPushMapper.updateAllColumnById
+2017-11-29 17:00:13.764 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysHookPushMapper.selectById
+2017-11-29 17:00:13.767 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysHookPushMapper.selectBatchIds
+2017-11-29 17:00:13.772 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysHookPushMapper.insert
+2017-11-29 17:00:13.775 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysHookPushMapper.insertAllColumn
+2017-11-29 17:00:13.778 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysHookPushMapper.delete
+2017-11-29 17:00:13.782 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysHookPushMapper.deleteByMap
+2017-11-29 17:00:13.785 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysHookPushMapper.update
+2017-11-29 17:00:13.788 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysHookPushMapper.selectByMap
+2017-11-29 17:00:13.790 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysHookPushMapper.selectOne
+2017-11-29 17:00:13.793 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysHookPushMapper.selectCount
+2017-11-29 17:00:13.796 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysHookPushMapper.selectList
+2017-11-29 17:00:13.799 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysHookPushMapper.selectPage
+2017-11-29 17:00:13.803 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysHookPushMapper.selectMaps
+2017-11-29 17:00:13.806 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysHookPushMapper.selectMapsPage
+2017-11-29 17:00:13.809 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysHookPushMapper.selectObjs
+2017-11-29 17:00:13.878 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysRPushCommitMapper.deleteById
+2017-11-29 17:00:13.887 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysRPushCommitMapper.deleteBatchIds
+2017-11-29 17:00:13.889 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysRPushCommitMapper.updateById
+2017-11-29 17:00:13.893 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysRPushCommitMapper.updateAllColumnById
+2017-11-29 17:00:13.894 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysRPushCommitMapper.selectById
+2017-11-29 17:00:13.898 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysRPushCommitMapper.selectBatchIds
+2017-11-29 17:00:13.904 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysRPushCommitMapper.insert
+2017-11-29 17:00:13.907 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysRPushCommitMapper.insertAllColumn
+2017-11-29 17:00:13.911 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysRPushCommitMapper.delete
+2017-11-29 17:00:13.914 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysRPushCommitMapper.deleteByMap
+2017-11-29 17:00:13.919 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysRPushCommitMapper.update
+2017-11-29 17:00:13.922 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysRPushCommitMapper.selectByMap
+2017-11-29 17:00:13.925 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysRPushCommitMapper.selectOne
+2017-11-29 17:00:13.928 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysRPushCommitMapper.selectCount
+2017-11-29 17:00:13.931 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysRPushCommitMapper.selectList
+2017-11-29 17:00:13.939 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysRPushCommitMapper.selectPage
+2017-11-29 17:00:13.945 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysRPushCommitMapper.selectMaps
+2017-11-29 17:00:13.948 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysRPushCommitMapper.selectMapsPage
+2017-11-29 17:00:13.953 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysRPushCommitMapper.selectObjs
+2017-11-29 17:00:13.985 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysCommitMapper.deleteById
+2017-11-29 17:00:14.030 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysCommitMapper.deleteBatchIds
+2017-11-29 17:00:14.036 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysCommitMapper.updateById
+2017-11-29 17:00:14.040 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysCommitMapper.updateAllColumnById
+2017-11-29 17:00:14.040 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysCommitMapper.selectById
+2017-11-29 17:00:14.043 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysCommitMapper.selectBatchIds
+2017-11-29 17:00:14.046 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysCommitMapper.insert
+2017-11-29 17:00:14.054 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysCommitMapper.insertAllColumn
+2017-11-29 17:00:14.057 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysCommitMapper.delete
+2017-11-29 17:00:14.061 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysCommitMapper.deleteByMap
+2017-11-29 17:00:14.065 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysCommitMapper.update
+2017-11-29 17:00:14.069 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysCommitMapper.selectByMap
+2017-11-29 17:00:14.145 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysCommitMapper.selectOne
+2017-11-29 17:00:14.148 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysCommitMapper.selectCount
+2017-11-29 17:00:14.192 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysCommitMapper.selectList
+2017-11-29 17:00:14.195 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysCommitMapper.selectPage
+2017-11-29 17:00:14.198 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysCommitMapper.selectMaps
+2017-11-29 17:00:14.201 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysCommitMapper.selectMapsPage
+2017-11-29 17:00:14.206 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysCommitMapper.selectObjs
+2017-11-29 17:00:14.299 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysOutgoingGroupMapper.deleteById
+2017-11-29 17:00:14.301 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysOutgoingGroupMapper.deleteBatchIds
+2017-11-29 17:00:14.304 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysOutgoingGroupMapper.updateById
+2017-11-29 17:00:14.307 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysOutgoingGroupMapper.updateAllColumnById
+2017-11-29 17:00:14.307 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysOutgoingGroupMapper.selectById
+2017-11-29 17:00:14.310 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysOutgoingGroupMapper.selectBatchIds
+2017-11-29 17:00:14.314 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysOutgoingGroupMapper.insert
+2017-11-29 17:00:14.317 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysOutgoingGroupMapper.insertAllColumn
+2017-11-29 17:00:14.329 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysOutgoingGroupMapper.delete
+2017-11-29 17:00:14.331 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysOutgoingGroupMapper.deleteByMap
+2017-11-29 17:00:14.334 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysOutgoingGroupMapper.update
+2017-11-29 17:00:14.337 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysOutgoingGroupMapper.selectByMap
+2017-11-29 17:00:14.340 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysOutgoingGroupMapper.selectOne
+2017-11-29 17:00:14.343 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysOutgoingGroupMapper.selectCount
+2017-11-29 17:00:14.346 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysOutgoingGroupMapper.selectList
+2017-11-29 17:00:14.348 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysOutgoingGroupMapper.selectPage
+2017-11-29 17:00:14.351 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysOutgoingGroupMapper.selectMaps
+2017-11-29 17:00:14.354 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysOutgoingGroupMapper.selectMapsPage
+2017-11-29 17:00:14.358 [DEBUG] com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.hsd.gitlab.systemhook.dao.SysOutgoingGroupMapper.selectObjs
+2017-11-29 17:00:14.500 [DEBUG] net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2017-11-29 17:00:14.544 [DEBUG] net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2017-11-29 17:00:14.545 [DEBUG] net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2017-11-29 17:00:14.561 [DEBUG] net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: C:\Users\ADMINI~1\AppData\Local\Temp\/ehcache
+2017-11-29 17:00:14.934 [DEBUG] net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2017-11-29 17:00:15.004 [DEBUG] net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2017-11-29 17:00:16.224 [DEBUG] net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-11-29 17:00:16.225 [DEBUG] net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2017-11-29 17:00:16.265 [DEBUG] net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2017-11-29 17:00:16.276 [DEBUG] net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-11-29 17:00:16.276 [DEBUG] net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2017-11-29 17:00:16.276 [DEBUG] net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2017-11-29 17:00:16.307 [DEBUG] net.sf.ehcache.store.MemoryStore - Initialized net.sf.ehcache.store.MemoryStore for CONSTANT
+2017-11-29 17:00:16.322 [DEBUG] net.sf.ehcache.DiskStorePathManager - Using diskstore path C:\Users\ADMINI~1\AppData\Local\Temp\ehcache
+2017-11-29 17:00:16.323 [DEBUG] net.sf.ehcache.DiskStorePathManager - Holding exclusive lock on C:\Users\ADMINI~1\AppData\Local\Temp\ehcache\.ehcache-diskstore.lock
+2017-11-29 17:00:16.324 [DEBUG] net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file %0043%004f%004e%0053%0054%0041%004e%0054.data
+2017-11-29 17:00:16.325 [DEBUG] net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file %0043%004f%004e%0053%0054%0041%004e%0054.index
+2017-11-29 17:00:16.338 [DEBUG] net.sf.ehcache.store.disk.DiskStorageFactory - Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\ehcache\%0043%004f%004e%0053%0054%0041%004e%0054.index
+2017-11-29 17:00:16.339 [DEBUG] net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file %0043%004f%004e%0053%0054%0041%004e%0054.index
+2017-11-29 17:00:16.361 [DEBUG] net.sf.ehcache.Cache - Initialised cache: CONSTANT
+2017-11-29 17:00:16.363 [DEBUG] net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured. Skipping for 'CONSTANT'.
+2017-11-29 17:00:16.364 [DEBUG] net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'CONSTANT'.
+2017-11-29 17:00:22.432 [DEBUG] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2017-11-29 17:00:22.467 [DEBUG] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2017-11-29 17:00:22.467 [DEBUG] org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2017-11-29 17:00:22.467 [DEBUG] org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2017-11-29 17:00:22.468 [DEBUG] org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy52
+2017-11-29 17:00:22.470 [DEBUG] org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2017-11-29 17:00:22.471 [DEBUG] org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2017-11-29 17:00:22.471 [DEBUG] org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2017-11-29 17:00:22.472 [DEBUG] org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2017-11-29 17:00:22.474 [DEBUG] org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2017-11-29 17:00:30.093 [DEBUG] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2017-11-29 17:00:30.097 [DEBUG] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2017-11-29 17:00:30.097 [DEBUG] org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2017-11-29 17:00:30.101 [DEBUG] org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2017-11-29 17:00:30.102 [DEBUG] org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy52
+2017-11-29 17:00:30.103 [DEBUG] org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2017-11-29 17:00:30.103 [DEBUG] org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2017-11-29 17:00:30.105 [DEBUG] org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2017-11-29 17:00:30.106 [DEBUG] org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2017-11-29 17:00:30.109 [DEBUG] org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2017-11-29 17:00:30.142 [DEBUG] com.netflix.hystrix.contrib.metrics.eventstream.HystrixMetricsPoller - Starting HystrixMetricsPoller
+2017-11-29 17:00:32.053 [DEBUG] com.netflix.discovery.endpoint.EndpointUtils - The availability zone for the given region us-east-1 are [defaultZone]
+2017-11-29 17:00:32.056 [DEBUG] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Config resolved to [AwsEndpoint{ serviceUrl='http://admin:admin@localhost:5001/eureka/', region='us-east-1', zone='defaultZone'}]
+2017-11-29 17:00:32.367 [DEBUG] com.netflix.discovery.shared.resolver.aws.ZoneAffinityClusterResolver - Local zone=defaultZone; resolved to: [AwsEndpoint{ serviceUrl='http://admin:admin@localhost:5001/eureka/', region='us-east-1', zone='defaultZone'}]
+2017-11-29 17:00:32.413 [DEBUG] com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient - Ending a session and starting anew
+2017-11-29 17:00:32.417 [DEBUG] com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient - Created client for url: http://admin:admin@localhost:5001/eureka/
+2017-11-29 17:00:32.539 [DEBUG] com.netflix.discovery.shared.MonitoredConnectionManager - Get connection: {}->http://localhost:5001, timeout = 5000
+2017-11-29 17:00:32.541 [DEBUG] com.netflix.discovery.shared.NamedConnectionPool - [{}->http://localhost:5001] total kept alive: 0, total issued: 0, total allocated: 0 out of 200
+2017-11-29 17:00:32.541 [DEBUG] com.netflix.discovery.shared.NamedConnectionPool - No free connections [{}->http://localhost:5001][null]
+2017-11-29 17:00:32.541 [DEBUG] com.netflix.discovery.shared.NamedConnectionPool - Available capacity: 50 out of 50 [{}->http://localhost:5001][null]
+2017-11-29 17:00:32.541 [DEBUG] com.netflix.discovery.shared.NamedConnectionPool - Creating new connection [{}->http://localhost:5001]
+2017-11-29 17:00:32.569 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to localhost:5001
+2017-11-29 17:00:32.679 [DEBUG] org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2017-11-29 17:00:32.683 [DEBUG] org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2017-11-29 17:00:32.683 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2017-11-29 17:00:32.697 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2017-11-29 17:00:32.697 [DEBUG] org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+2017-11-29 17:00:32.698 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /eureka/apps/ HTTP/1.1
+2017-11-29 17:00:32.698 [DEBUG] org.apache.http.wire -  >> "GET /eureka/apps/ HTTP/1.1[\r][\n]"
+2017-11-29 17:00:32.699 [DEBUG] org.apache.http.wire -  >> "Accept: application/json[\r][\n]"
+2017-11-29 17:00:32.700 [DEBUG] org.apache.http.wire -  >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+2017-11-29 17:00:32.700 [DEBUG] org.apache.http.wire -  >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+2017-11-29 17:00:32.700 [DEBUG] org.apache.http.wire -  >> "DiscoveryIdentity-Id: 192.168.88.1[\r][\n]"
+2017-11-29 17:00:32.700 [DEBUG] org.apache.http.wire -  >> "Accept-Encoding: gzip[\r][\n]"
+2017-11-29 17:00:32.700 [DEBUG] org.apache.http.wire -  >> "Host: localhost:5001[\r][\n]"
+2017-11-29 17:00:32.700 [DEBUG] org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+2017-11-29 17:00:32.701 [DEBUG] org.apache.http.wire -  >> "User-Agent: Java-EurekaClient/v1.6.2[\r][\n]"
+2017-11-29 17:00:32.701 [DEBUG] org.apache.http.wire -  >> "Authorization: Basic YWRtaW46YWRtaW4=[\r][\n]"
+2017-11-29 17:00:32.701 [DEBUG] org.apache.http.wire -  >> "[\r][\n]"
+2017-11-29 17:00:32.701 [DEBUG] org.apache.http.headers - >> GET /eureka/apps/ HTTP/1.1
+2017-11-29 17:00:32.701 [DEBUG] org.apache.http.headers - >> Accept: application/json
+2017-11-29 17:00:32.701 [DEBUG] org.apache.http.headers - >> DiscoveryIdentity-Name: DefaultClient
+2017-11-29 17:00:32.702 [DEBUG] org.apache.http.headers - >> DiscoveryIdentity-Version: 1.4
+2017-11-29 17:00:32.702 [DEBUG] org.apache.http.headers - >> DiscoveryIdentity-Id: 192.168.88.1
+2017-11-29 17:00:32.702 [DEBUG] org.apache.http.headers - >> Accept-Encoding: gzip
+2017-11-29 17:00:32.702 [DEBUG] org.apache.http.headers - >> Host: localhost:5001
+2017-11-29 17:00:32.702 [DEBUG] org.apache.http.headers - >> Connection: Keep-Alive
+2017-11-29 17:00:32.702 [DEBUG] org.apache.http.headers - >> User-Agent: Java-EurekaClient/v1.6.2
+2017-11-29 17:00:32.703 [DEBUG] org.apache.http.headers - >> Authorization: Basic YWRtaW46YWRtaW4=
+2017-11-29 17:00:32.737 [DEBUG] org.apache.http.wire -  << "HTTP/1.1 200 [\r][\n]"
+2017-11-29 17:00:32.740 [DEBUG] org.apache.http.wire -  << "Content-Encoding: gzip[\r][\n]"
+2017-11-29 17:00:32.740 [DEBUG] org.apache.http.wire -  << "Content-Type: application/json[\r][\n]"
+2017-11-29 17:00:32.740 [DEBUG] org.apache.http.wire -  << "Content-Length: 554[\r][\n]"
+2017-11-29 17:00:32.740 [DEBUG] org.apache.http.wire -  << "Date: Wed, 29 Nov 2017 09:00:32 GMT[\r][\n]"
+2017-11-29 17:00:32.740 [DEBUG] org.apache.http.wire -  << "[\r][\n]"
+2017-11-29 17:00:32.740 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 
+2017-11-29 17:00:32.740 [DEBUG] org.apache.http.headers - << HTTP/1.1 200 
+2017-11-29 17:00:32.740 [DEBUG] org.apache.http.headers - << Content-Encoding: gzip
+2017-11-29 17:00:32.741 [DEBUG] org.apache.http.headers - << Content-Type: application/json
+2017-11-29 17:00:32.741 [DEBUG] org.apache.http.headers - << Content-Length: 554
+2017-11-29 17:00:32.741 [DEBUG] org.apache.http.headers - << Date: Wed, 29 Nov 2017 09:00:32 GMT
+2017-11-29 17:00:32.748 [DEBUG] org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+2017-11-29 17:00:32.761 [DEBUG] org.apache.http.wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x8d][0x92]mo[0xda]0[0x10][0xc7][0xbf][0x8b][0xc5]K[0x8][0x84][0xa7][0x86][0xbc]*%[0xd9][0xc6][0xba]R[0x4]K[0xa7]i[0x9a][0x90][0x97][0x1c][0xc4][0xab]cG[0xb6]C[0x1b]![0xbe][0xfb][0xce][0x9]YK[0xdb][0xa9][0x13]/[0x82][0xef]~w[0xf7][0xbf][0x87][0x3][0xa1]y[0xce]YL[\r][0x93]B[0x13][0xff]@[0xf6][0xa0][0xb4][0xfd][0xbf][0xd9]$[0xc0][\r]%>qI[0xdb]RhI[0xa9]Nc[0x99][0x0][0x1a][0xa3][0xe5][0xc6][0xdd][0xd4][0x8e]&[0x9c][0xf8]?[0xe]D[0xd0][0xcc][0xba]?[0xad][0x83]N[0x18][0xad][0xc2][0xeb]ig[0x1d][0xae][0xee][0xc2][0x15][0xa2]LhCE[0xc][0x15][0xd7]<[0xe6][0x9][0xd2]_[0x82]i0[0xfd][0xee]^E[0x1f][0xae]>[0x87][0xc1]G?[0xd5]I[0x7][\n]"
+2017-11-29 17:00:32.761 [DEBUG] org.apache.http.wire -  << "[0x5][0xf7][0xb4][0xa3]A[0xa1]"[0xd4][0xeb]Y[0x19][0xa9][0xd4]fQWp'}[0xc7][0x1d]{[0x8e][0xe7]9'[0x81][0xff]*[0x9b]O[0x93]D[0xbd][0x8e][0xc0][0xfa][0xa6][0xd0]U+[0xf8][0x92]XE[0xb1]$[0x1][0xf1]d_\/n[0xbf]-[0xd0][0x99]Ke[0xec]lZ[0xa4][0x12][0xd2]&[0x97] [0xe8]/[0xe]V[0xbb]Q[0x5][0x90]#[0xa6][0x83][0x18][0x15]/[0x9f][0xc8][0xe1]pp[0x6]n)[0xd7][0x15][0x19][0xcb]B[0x18]U[0xda][0xce]1UB[\r][0x9d][0x81]0[0xa0][0xe6]b+m[0xec]e[0xcc][0xa9][0xb6][0x2]b[0x99]9[0x2][0xcc][0x96][0xb3]G[0x7][0xfb]c[0xe8]w[0xe6][0xcd][0xdc][0xf0][0xd1][\n]"
+2017-11-29 17:00:32.761 [DEBUG] org.apache.http.wire -  << "`K[0xb]n[0x82][0xf3][0x14][0xed]f[0x9]7[0xe5][0xed][0x83][0xb0][0x15]9P[\r]Mz[0x5][0x2][0x1e]([0x9f][~o[0xbf]k[0x88][0xb1][0xda][0x8][0xa5][0x14][0xaa]Zdcr[0xd1][0xa6]`[0xc7][0xb4][0xa9][0xed]_Y[0x6]X=[0xcb][0xad][0xcb]u[0xbd][0x81];[0x18]x[0xe3][0x9]R([0xd8][0xac][0xea][0xbc]/[0xa0][0xc9]p4[0xe9][0x8f]{[0x17][0xe3]6[0x81]=[0x8b]_[0xa4][0xe9][0xd9][0xb9])[0xb4]C[0x94][0xbf][0x91][0xbd]7[0x19][0xf5]/P[0x6][0x86][0xda]9[0x9d]M[0xe7]7[0xdd]S[0xa7]0[0x8c];3[0xc9]9T[0xa9]u+[0xcc]rS[0xde][0xd0][0xdc][0xb6][0x9d][0xca][0xc][0x96]t[0x7][0x91][0xe2][0xc8][0xa7][0xc6][0xe4]~[0xb7][0xfb][0xfc][\n]"
+2017-11-29 17:00:32.762 [DEBUG] org.apache.http.wire -  << "[0xaa]mv[0xff][0xde][0xc2][0xb0][0xac][0x1e]p[\n]"
+2017-11-29 17:00:32.762 [DEBUG] org.apache.http.wire -  << "[0x94][0x9b]t[0x96]B|[0xff]N@Mb[0xc8][0xbe][0xbe]C[0xa8][0xb4][0xbf]:p[0xd2][0x1c][0xd0][0xdd]{[0x18][0xd3]3)U[0xc2][0x4][0xae]D[0xec][0x2][0xa6]c{[0xba][0xe5][0xba][0xf6][0x9f][0xee][0xb1][0xde]H[0x94][0xe3][0xd0] y6Xr[0xb6][0xb7][0x13][0x16]0e[0xca][0xb7][0xa0][0x9e]7[0xf0],D[0xeb][0xb5][0x95][0xb9]=[0xaa]i[0x10][0x84][0x1]9[0xfe][0xc4][0xdf][0xf1][0xf]}cA[0x8d]>[0x4][0x0][0x0]"
+2017-11-29 17:00:32.905 [DEBUG] com.netflix.discovery.shared.MonitoredConnectionManager - Released connection is reusable.
+2017-11-29 17:00:32.905 [DEBUG] com.netflix.discovery.shared.NamedConnectionPool - Releasing connection [{}->http://localhost:5001][null]
+2017-11-29 17:00:32.906 [DEBUG] com.netflix.discovery.shared.NamedConnectionPool - Pooling connection [{}->http://localhost:5001][null]; keep alive indefinitely
+2017-11-29 17:00:32.906 [DEBUG] com.netflix.discovery.shared.NamedConnectionPool - Notifying no-one, there are no waiting threads
+2017-11-29 17:00:32.908 [DEBUG] com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient - Jersey HTTP GET http://admin:admin@localhost:5001/eureka//apps/?; statusCode=200
+2017-11-29 17:00:32.908 [DEBUG] com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient - Pinning to endpoint null
+2017-11-29 17:00:32.909 [DEBUG] com.netflix.discovery.DiscoveryClient - Got full registry with apps hashcode UP_1_
+2017-11-29 17:00:32.909 [DEBUG] com.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 1
+2017-11-29 17:00:33.153 [DEBUG] com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient - Ending a session and starting anew
+2017-11-29 17:00:33.159 [DEBUG] com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient - Created client for url: http://admin:admin@localhost:5001/eureka/
+2017-11-29 17:00:33.160 [DEBUG] com.netflix.discovery.shared.MonitoredConnectionManager - Get connection: {}->http://localhost:5001, timeout = 5000
+2017-11-29 17:00:33.161 [DEBUG] com.netflix.discovery.shared.NamedConnectionPool - [{}->http://localhost:5001] total kept alive: 1, total issued: 0, total allocated: 1 out of 200
+2017-11-29 17:00:33.161 [DEBUG] com.netflix.discovery.shared.NamedConnectionPool - Getting free connection [{}->http://localhost:5001][null]
+2017-11-29 17:00:33.161 [DEBUG] org.apache.http.impl.client.DefaultHttpClient - Stale connection check
+2017-11-29 17:00:33.162 [DEBUG] org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2017-11-29 17:00:33.162 [DEBUG] org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2017-11-29 17:00:33.162 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2017-11-29 17:00:33.162 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2017-11-29 17:00:33.163 [DEBUG] org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+2017-11-29 17:00:33.163 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Sending request: DELETE /eureka/apps/HSD-GITLAB-HOOKS-SERVER/LDADAY1BUFBJEDG:hsd-gitlab-hooks-server:-1 HTTP/1.1
+2017-11-29 17:00:33.163 [DEBUG] org.apache.http.wire -  >> "DELETE /eureka/apps/HSD-GITLAB-HOOKS-SERVER/LDADAY1BUFBJEDG:hsd-gitlab-hooks-server:-1 HTTP/1.1[\r][\n]"
+2017-11-29 17:00:33.163 [DEBUG] org.apache.http.wire -  >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+2017-11-29 17:00:33.163 [DEBUG] org.apache.http.wire -  >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+2017-11-29 17:00:33.163 [DEBUG] org.apache.http.wire -  >> "DiscoveryIdentity-Id: 192.168.88.1[\r][\n]"
+2017-11-29 17:00:33.163 [DEBUG] org.apache.http.wire -  >> "Accept-Encoding: gzip[\r][\n]"
+2017-11-29 17:00:33.163 [DEBUG] org.apache.http.wire -  >> "Host: localhost:5001[\r][\n]"
+2017-11-29 17:00:33.163 [DEBUG] org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+2017-11-29 17:00:33.163 [DEBUG] org.apache.http.wire -  >> "User-Agent: Java-EurekaClient/v1.6.2[\r][\n]"
+2017-11-29 17:00:33.163 [DEBUG] org.apache.http.wire -  >> "Authorization: Basic YWRtaW46YWRtaW4=[\r][\n]"
+2017-11-29 17:00:33.163 [DEBUG] org.apache.http.wire -  >> "[\r][\n]"
+2017-11-29 17:00:33.164 [DEBUG] org.apache.http.headers - >> DELETE /eureka/apps/HSD-GITLAB-HOOKS-SERVER/LDADAY1BUFBJEDG:hsd-gitlab-hooks-server:-1 HTTP/1.1
+2017-11-29 17:00:33.164 [DEBUG] org.apache.http.headers - >> DiscoveryIdentity-Name: DefaultClient
+2017-11-29 17:00:33.164 [DEBUG] org.apache.http.headers - >> DiscoveryIdentity-Version: 1.4
+2017-11-29 17:00:33.164 [DEBUG] org.apache.http.headers - >> DiscoveryIdentity-Id: 192.168.88.1
+2017-11-29 17:00:33.164 [DEBUG] org.apache.http.headers - >> Accept-Encoding: gzip
+2017-11-29 17:00:33.164 [DEBUG] org.apache.http.headers - >> Host: localhost:5001
+2017-11-29 17:00:33.164 [DEBUG] org.apache.http.headers - >> Connection: Keep-Alive
+2017-11-29 17:00:33.164 [DEBUG] org.apache.http.headers - >> User-Agent: Java-EurekaClient/v1.6.2
+2017-11-29 17:00:33.164 [DEBUG] org.apache.http.headers - >> Authorization: Basic YWRtaW46YWRtaW4=
+2017-11-29 17:00:33.289 [DEBUG] org.apache.http.wire -  << "HTTP/1.1 404 [\r][\n]"
+2017-11-29 17:00:33.290 [DEBUG] org.apache.http.wire -  << "Content-Type: application/xml[\r][\n]"
+2017-11-29 17:00:33.290 [DEBUG] org.apache.http.wire -  << "Content-Length: 0[\r][\n]"
+2017-11-29 17:00:33.290 [DEBUG] org.apache.http.wire -  << "Date: Wed, 29 Nov 2017 09:00:32 GMT[\r][\n]"
+2017-11-29 17:00:33.290 [DEBUG] org.apache.http.wire -  << "[\r][\n]"
+2017-11-29 17:00:33.290 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 404 
+2017-11-29 17:00:33.290 [DEBUG] org.apache.http.headers - << HTTP/1.1 404 
+2017-11-29 17:00:33.290 [DEBUG] org.apache.http.headers - << Content-Type: application/xml
+2017-11-29 17:00:33.290 [DEBUG] org.apache.http.headers - << Content-Length: 0
+2017-11-29 17:00:33.290 [DEBUG] org.apache.http.headers - << Date: Wed, 29 Nov 2017 09:00:32 GMT
+2017-11-29 17:00:33.291 [DEBUG] org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+2017-11-29 17:00:33.291 [DEBUG] com.netflix.discovery.shared.MonitoredConnectionManager - Released connection is reusable.
+2017-11-29 17:00:33.291 [DEBUG] com.netflix.discovery.shared.NamedConnectionPool - Releasing connection [{}->http://localhost:5001][null]
+2017-11-29 17:00:33.291 [DEBUG] com.netflix.discovery.shared.NamedConnectionPool - Pooling connection [{}->http://localhost:5001][null]; keep alive indefinitely
+2017-11-29 17:00:33.291 [DEBUG] com.netflix.discovery.shared.NamedConnectionPool - Notifying no-one, there are no waiting threads
+2017-11-29 17:00:33.291 [DEBUG] com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient - Jersey HTTP DELETE http://admin:admin@localhost:5001/eureka//apps/HSD-GITLAB-HOOKS-SERVER/LDADAY1BUFBJEDG:hsd-gitlab-hooks-server:-1; statusCode=404
+2017-11-29 17:00:33.291 [DEBUG] com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient - Pinning to endpoint null
+2017-11-29 17:00:33.295 [DEBUG] com.netflix.discovery.shared.MonitoredConnectionManager - Closing connections idle longer than 0 SECONDS
+2017-11-29 17:00:33.295 [DEBUG] com.netflix.discovery.shared.NamedConnectionPool - Closing connections idle longer than 0 SECONDS
+2017-11-29 17:00:33.295 [DEBUG] com.netflix.discovery.shared.NamedConnectionPool - Closing connection last used @ Wed Nov 29 17:00:33 CST 2017
+2017-11-29 17:00:33.295 [DEBUG] com.netflix.discovery.shared.NamedConnectionPool - Deleting connection [{}->http://localhost:5001][null]
+2017-11-29 17:00:33.296 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:62018<->127.0.0.1:5001 closed
+2017-11-29 17:00:33.297 [DEBUG] com.netflix.discovery.shared.MonitoredConnectionManager - Closing connections idle longer than 0 SECONDS
+2017-11-29 17:00:33.297 [DEBUG] com.netflix.discovery.shared.NamedConnectionPool - Closing connections idle longer than 0 SECONDS
+2017-11-29 17:00:33.303 [DEBUG] com.netflix.hystrix.contrib.metrics.eventstream.HystrixMetricsPoller - Stopping the HystrixMetricsPoller
+2017-11-29 17:00:33.398 [DEBUG] com.netflix.hystrix.strategy.HystrixPlugins - Created HystrixDynamicProperties. Using class : com.netflix.hystrix.strategy.properties.archaius.HystrixDynamicPropertiesArchaius
