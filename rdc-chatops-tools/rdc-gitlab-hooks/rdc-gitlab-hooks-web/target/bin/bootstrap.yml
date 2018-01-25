@@ -2,11 +2,42 @@
 spring:
   cloud:
     config:
-      enabled: false
+#      enabled: false
+#      username: maijinbei
+#      password: maijinbei88
+      name: rdcgitlabhooksweb
+#      profile: base
+      label: master
+#      uri: http://localhost:7001/
+      discovery:
+        enabled: true             # 默认false，设为true表示使用注册中心中的configserver配置而不自己配置configserver的uri
+        serviceId: hsd-config-server  # 指定config server在服务发现中的serviceId，默认为：configserver
+
 ##      uri: http://192.168.8.132:8888
 #      profile: dev
 #      label: trunk
-#      discovery:
-#        enabled: true             # 默认false，设为true表示使用注册中心中的configserver配置而不自己配置configserver的uri
-#        serviceId: config-server  # 指定config server在服务发现中的serviceId，默认为：configserver
+
+## [EUREKA]
+eureka:
+  instance:
+    preferIpAddress: true
+    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+#    lease-renewal-interval-in-seconds: 10 # 续约到期时间（默认90秒）
+#    lease-expiration-duration-in-seconds: 30 # 续约更新时间间隔（默认30秒）
+  client:
+    registerWithEureka: true #服务注册
+    fetchRegistry: true #服务获取
+    serviceUrl:
+      defaultZone: http://${security.user.name}:${security.user.password}@localhost:5001/eureka/
+    healthcheck:
+      enabled: true # 开启健康检查（需要spring-boot-starter-actuator依赖
+
+
+## [SECURITY]
+security:
+     basic:
+       enabled: false
+     user:
+       name: admin
+       password: admin
 
