@@ -1,0 +1,24 @@
+package com.hsd.gitlab.config;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RefreshScope
+@RestController
+class TestController {
+
+
+    @Value("${spring.datasource.username}")
+    private String from="default";
+
+    @Value("${spring.datasource.password}")
+    private String to = "default";
+
+    @RequestMapping("/from")
+    public String from() {
+        return this.from;
+    }
+
+}

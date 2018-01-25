@@ -7,29 +7,14 @@ spring:
   jackson:
     property-naming-strategy: LOWER_CAMEL_CASE
   datasource:
-      url: jdbc:mysql://192.168.254.246:3308/webhooks?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
-      username: root
-      password: hsd_dev
+      url: ${spring.datasource.url}
+      username: ${spring.datasource.username}
+      password: ${spring.datasource.password}
       filters: log4j,wall,mergeStat
 
 server:
   port: 5100
 
-
-## [EUREKA]
-eureka:
-  instance:
-    preferIpAddress: true
-    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
-#    lease-renewal-interval-in-seconds: 10 # 续约到期时间（默认90秒）
-#    lease-expiration-duration-in-seconds: 30 # 续约更新时间间隔（默认30秒）
-  client:
-    registerWithEureka: true #服务注册
-    fetchRegistry: true #服务获取
-    serviceUrl:
-      defaultZone: http://${security.user.name}:${security.user.password}@localhost:5001/eureka/
-    healthcheck:
-      enabled: true # 开启健康检查（需要spring-boot-starter-actuator依赖
 
 ## [MYBATIES-PLUS]
 mybatis-plus:
@@ -46,13 +31,6 @@ mybatis-plus:
     multipleResultSetsEnabled: true #开启的话，延时加载一个属性时会加载该对象全部属性，否则按需加载属性
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #打印sql语句,调试用
 
-## [SECURITY]
-security:
-     basic:
-       enabled: false
-     user:
-       name: admin
-       password: admin
 
 ## [ZUUL]
 zuul:
@@ -133,7 +111,7 @@ info:
 ## [OTHER]
 feign:
   client:
-    name: ${spring.application.name}
+    name: hsd-gitlab-hooks-server
   okhttp:
     enabled: true
   hystrix:

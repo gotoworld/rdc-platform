@@ -1,11 +1,21 @@
-## [APP]
+server:
+  port: 7001
 spring:
   application:
     name: hsd-config-server
-
-server:
-  port: 5002
-
+  cloud:
+     config:
+        server:
+           git:
+              username: coder
+              password: 88888888
+              uri: http://192.168.254.143/common/config-repository.git
+              search-paths: '{application}'
+        discovery:
+                enabled: true
+  profiles:
+    include: base,third,job,price,trade,activity,pay
+    active: base,third,job,price,trade,activity,pay
 
 ## [EUREKA]
 eureka:
@@ -19,8 +29,8 @@ eureka:
     fetchRegistry: true #服务获取
     serviceUrl:
       defaultZone: http://${security.user.name}:${security.user.password}@localhost:5001/eureka/
-    healthcheck:
-      enabled: true # 开启健康检查（需要spring-boot-starter-actuator依赖
+#    healthcheck:
+#      enabled: true # 开启健康检查（需要spring-boot-starter-actuator依赖
 
 ## [SECURITY]
 security:

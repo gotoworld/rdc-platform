@@ -1,6 +1,7 @@
 package com.hsd.gitlab;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.cloud.client.SpringCloudApplication;
 import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
@@ -23,8 +24,9 @@ import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboar
 public class GitlabHooksServer {
 
     public static void main(String[] args) {
-        SpringApplication.run(GitlabHooksServer.class, args);
+        new SpringApplicationBuilder(GitlabHooksServer.class).web(true).run(args);
         log.info("Application is success!");
+
     }
 }
 
