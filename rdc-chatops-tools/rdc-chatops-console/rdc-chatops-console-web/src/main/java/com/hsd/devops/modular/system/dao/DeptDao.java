@@ -8,7 +8,7 @@ import org.apache.ibatis.annotations.Param;
 import com.hsd.devops.core.node.ZTreeNode;
 
 
-public interface DeptDao {
+public interface DeptDao  {
 
     
     List<ZTreeNode> tree();

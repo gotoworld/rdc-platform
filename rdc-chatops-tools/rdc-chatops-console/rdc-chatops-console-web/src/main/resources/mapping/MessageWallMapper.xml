@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.hsd.devops.common.persistence.dao.MessageWallMapper">
+
+    <!-- 获取指定数量的留言列表 -->
+    <select id="getMessageList" resultType="com.hsd.devops.common.persistence.model.MessageWall">
+        SELECT w.id,w.content,w.status,w.user_id userId,w.ip_address ipAddress,w.user_name userName,w.create_time createTime,w.update_time updateTime
+        FROM message_wall w
+        ORDER BY w.create_time DESC
+        <if test="num > 0">
+            LIMIT 0,${num}
+        </if>
+    </select>
+</mapper>

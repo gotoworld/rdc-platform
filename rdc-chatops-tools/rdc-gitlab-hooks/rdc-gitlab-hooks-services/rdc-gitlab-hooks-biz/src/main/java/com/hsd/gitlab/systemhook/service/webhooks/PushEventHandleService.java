@@ -201,7 +201,7 @@ public class PushEventHandleService implements IEventHandleService {
         if (!commits.isEmpty()) {
             for (Commits commit : commits) {
                 EntityWrapper<SysCommit> oldCommitWrapper = new EntityWrapper<SysCommit>();
-                oldCommitWrapper.eq("checkoutSha", commit.getId());
+                oldCommitWrapper.eq("checkout_sha", commit.getId());
                 SysCommit theCommit = sysCommitService.selectOne(oldCommitWrapper);
                 
                 if (theCommit == null) {

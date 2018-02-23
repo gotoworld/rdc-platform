@@ -76,13 +76,13 @@ public class WebConfig {
     /**
      * druid数据库连接池监控
      */
-    @Bean
-    public BeanTypeAutoProxyCreator beanTypeAutoProxyCreator() {
-        BeanTypeAutoProxyCreator beanTypeAutoProxyCreator = new BeanTypeAutoProxyCreator();
-        beanTypeAutoProxyCreator.setTargetBeanType(DruidDataSource.class);
-        beanTypeAutoProxyCreator.setInterceptorNames("druidStatInterceptor");
-        return beanTypeAutoProxyCreator;
-    }
+//    @Bean
+//    public BeanTypeAutoProxyCreator beanTypeAutoProxyCreator() {
+//        BeanTypeAutoProxyCreator beanTypeAutoProxyCreator = new BeanTypeAutoProxyCreator();
+//        beanTypeAutoProxyCreator.setTargetBeanType(DruidDataSource.class);
+//        beanTypeAutoProxyCreator.setInterceptorNames("druidStatInterceptor");
+//        return beanTypeAutoProxyCreator;
+//    }
 
     /**
      * druid 为druidStatPointcut添加拦截
