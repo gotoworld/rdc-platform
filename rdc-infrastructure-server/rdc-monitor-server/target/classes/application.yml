@@ -4,6 +4,32 @@ spring:
     name: hsd-monitor-server
   profiles:
     active: dev
+  rabbitmq:
+    host: 192.168.254.246
+    port: 5672
+    username: myuser
+    password: mypass
+  # zipkin:
+  #     base-url: http://localhost:5002
+  # sleuth:
+  #   enabled: true
+  #   sampler:
+  #     percentage: 1
+  boot:
+    admin:
+      turbine:
+        location: hsd-monitor-server
+      routes:
+        endpoints: env,metrics,trace,dump,jolokia,info,configprops,trace,logfile,refresh,flyway,liquibase,heapdump,loggers,auditevents,hystrix.stream,turbine.stream
+  redis:
+    remote: true        #cachecloud 获取
+    host: 192.168.254.246
+    port: 6379
+    password:
+  http:
+    multipart:
+      max-file-size: 1000MB
+      max-request-size: 1000MB
 
 server:
   port: 5004
@@ -31,6 +57,8 @@ turbine:
   aggregator:
     clusterConfig: default
   clusterNameExpression: new String("default")
+  combine-host-port: true
+
 
 ## [SECURITY]
 security:
@@ -44,10 +72,15 @@ security:
 management:
   security:
     enabled: false
+endpoints:
+  actuator:
+    enabled: true
+  shutdown:
+    enabled: false
 
 ## [LOG]
 logging:
-  level.root: debug
+  level.root: info
   path: ./logs/hsd-admin-server   # not working this moment, since logback-spring will be first used by
 
 ## [INFO]
@@ -62,6 +95,52 @@ hsd:
   common:
     appPrefix: dev_   #指定app前缀（开发中可使用IP），系统在队列名、Cache名等前会自动加上前缀，以便不同环境冲突
 
+mobiles:
+  users:
+    - 18682089914
 
+#server:
+#  tomcat:
+#    max-threads: 500 # Maximum amount of worker threads.
+#    min-spare-threads: 50 # Minimum amount of worker threads
+
+
+cache:
+  redis:
+    expiration: 3601
+
+ribbon:
+  Httpclient:
+    enable: false
+  OkHttp:
+    enable: true
+  ReadTimeout: 30000
+  ConnectTimeout: 30000
+
+feign:
+  hystrix:
+    enabled: true
+  okhttp:
+    enable: true
+  httpclient:
+    enable: false
+  client:
+    config:
+      feignName:
+        connectTimeout: 30000
+        readTimeout: 30000
+
+hystrix:
+  threadpool:
+    default:
+      coreSize: 500
+      maxQueueSize: 1000
+      queueSizeRejectionThreshold: 800
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
 
 
